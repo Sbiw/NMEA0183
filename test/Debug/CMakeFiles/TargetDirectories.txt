@@ -1,0 +1,3 @@
+/home/pene/NMEA0183/test/Debug/CMakeFiles/Test.dir
+/home/pene/NMEA0183/test/Debug/CMakeFiles/edit_cache.dir
+/home/pene/NMEA0183/test/Debug/CMakeFiles/rebuild_cache.dir

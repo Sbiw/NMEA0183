@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x -g -rdynamic CMakeFiles/Test.dir/test.cpp.o -o Test  -Wl,-rpath,/home/pene/NMEA0183/test/../Debug /home/pene/NMEA0183/test/../Debug/libNMEA0183.so 
