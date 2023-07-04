@@ -242,8 +242,8 @@ class NMEA0183
       WDR Wdr; // Sentence Not Recommended For New Designs
       WNC Wnc;
       WPL Wpl;
-	  XDR Xdr;
-	  XTE Xte;
+	   XDR Xdr;
+	   XTE Xte;
       XTR Xtr;
       ZDA Zda;
       ZFI Zfi; // Sentence Not Recommended For New Designs

@@ -51,12 +51,6 @@ SOFTWARE.
 
 #define STRING_VIEW(_x)  std::string_view(  _x, std::size(_x) - 1)
 
-/*
-** Turn off the warning about precompiled headers, it is rather annoying
-*/
-
-#pragma warning( disable : 4699 )
-
 #if ! defined( CARRIAGE_RETURN )
 #define CARRIAGE_RETURN (0x0D)
 #endif

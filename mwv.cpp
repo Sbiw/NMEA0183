@@ -47,9 +47,9 @@ bool MWV::Parse( SENTENCE const& sentence ) noexcept
    /*
    ** MWV - Wind Speed and Angle
    **
-   **        1   2 3   4 5
-   **        |   | |   | |
-   ** $--MWV,x.x,a,x.x,a*hh<CR><LF>
+   **        1   2 3   4 5 6
+   **        |   | |   | | |
+   ** $--MWV,x.x,a,x.x,a,a*hh<CR><LF>
    **
    ** Field Number: 
    **  1) Wind Angle, 0 to 360 degrees
@@ -76,7 +76,7 @@ bool MWV::Parse( SENTENCE const& sentence ) noexcept
    WindSpeedUnits = sentence.Field( 4 );
    IsDataValid    = sentence.Boolean( 5 );
 
-   return( false );
+   return( true );
 }
 
 bool MWV::Write( SENTENCE& sentence ) const noexcept

@@ -7,9 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 
-include_directories(
-
-)
+include_directories()
 
 FILE(GLOB NMEA_Sources ${CMAKE_SOURCE_DIR}/*.cpp)
 

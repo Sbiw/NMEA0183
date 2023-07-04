@@ -17,3 +17,6 @@ ClientBin/
 *.vcxproj.user
 *humbs.db
 /AzureKey.txt
+Debug/
+Release/
+*.json
